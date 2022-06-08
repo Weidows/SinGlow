@@ -3,3 +3,7 @@ tensorflow==2.6.0
 tqdm==4.62.1
 typeguard==2.12.1
 numpy==1.19.5
+# ImportError: cannot import name 'dtensor' from 'tensorflow.compat.v2.experim
+# 必须对应 tensorflow 版本
+# https://zhuanlan.zhihu.com/p/465947475
+keras==2.6.0
